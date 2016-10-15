@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnNotification1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_notification" />
+
+        <Button
+            android:id="@+id/btnNotification2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_activity" />
+
+        <Button
+            android:id="@+id/btnNotification3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/two_icon" />
+
+        <Button
+            android:id="@+id/btnNotification4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/big_picture" />
+
+        <Button
+            android:id="@+id/btnNotification5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/big_text" />
+
+        <Button
+            android:id="@+id/btnNotification6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_text" />
+
+        <Button
+            android:id="@+id/btnNotification7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/big_text_button" />
+
+        <Button
+            android:id="@+id/btnNotification8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_simple" />
+
+        <Button
+            android:id="@+id/btnNotification9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_big" />
+    </LinearLayout>
+
+</ScrollView>
